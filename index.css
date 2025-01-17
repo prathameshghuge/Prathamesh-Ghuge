@@ -1,0 +1,251 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.mainbox{
+     height: fit-content;
+     width: 100%;
+     background-color: white;
+     display: flex;
+}
+.imagebox{
+    height: 100vh;
+    width: 45%;
+    /* background-color: blue; */
+    position: sticky;
+    top: 0;
+    
+}
+
+.descriptionBox{
+    height: 250vh;
+    width: 55%;
+    background-color: white;
+
+  
+}
+.information{
+    height: fit-content;
+    width: 100%;
+    background-color:white;
+}
+.information h1{
+    margin: 15px;
+}
+#para1{
+    margin-left:20px ;
+    color: blue;
+}
+#para2{
+    height: fit-content;
+    width: 120px;
+    border: 2px solid black;
+}
+.rate{
+    font-size: 30px;
+    display:flex;
+    gap:20px;
+}
+.price{
+    height: 200px;
+    width: 100%;
+    background-color: white;
+}
+#para3{
+    font-size: 40px;
+    margin-left: 10px;
+}
+.amount{
+    display: flex;
+   
+
+}
+#para4{
+    font-size: 20px;
+    margin-left: 10px;
+}
+#para5{
+    font-size: 20px;
+}
+.emi{
+    display: flex;
+}
+.coupon {
+   display: flex;
+   gap: 10px;
+}
+.offers{
+    height: 200px;
+    width: 100%;
+    background-color: white;
+}
+.off{
+    display: flex;
+    margin-left: 15px;
+    
+}
+.off i{
+    font-size: 30px;
+}
+.off h2{
+    font-size: 30px;
+}
+.box1{
+    height: 150px;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+.cashback{
+    height: 100px;
+    width: 160px;
+    background-color: white;
+    border: 2px solid gray;
+    border-radius: 10px;
+}
+.cashback h3{
+    text-align: center;
+}
+.cashback p{
+    text-align: center;
+}
+.cashback h4{
+    text-align: left;
+    color: blue;
+}
+.return{
+    height: 150px;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+}
+.icon{
+    height: 100px;
+    width:90px;
+    /* background-color: rgb(197, 229, 20); */
+    
+}
+.icon img{
+    height: 50px;
+    width:50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 10px;
+}
+.icon p{
+    text-align: center;
+    color: blue;
+}
+.specification{
+    height: 170px;
+    width: 100%;
+    /* background-color: rgb(215, 14, 44); */
+}
+.about{
+    height: fit-content;
+    width: 100%;
+    /* background-color: violet; */
+}
+
+
+
+.cart{
+    height: 600px;
+    width: 25%;
+    /* background-color:yellow; */
+    margin-top: 30px;
+    border-radius: 30px;
+    border: 1px solid black;
+    /* overflow: hidden; */
+}
+.cart h3{
+    margin: 20px;
+      margin-left: 30px;
+      font-size: 40px;
+}
+.note{
+    height: fit-content;
+    width: 100%;
+    /* background-color: darkblue; */
+    text-align: center;
+    color: red;
+}
+.address{
+    display: flex;
+}
+.icon{
+    height: fit-content;
+
+}
+.location{
+    height: fit-content;
+}
+.stock{
+    margin: 20px;
+}
+.plan{
+    height: fit-content;
+    /* background-color: cornflowerblue; */
+    
+}
+.check{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+/* .quantity{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+} */
+ .option{
+height: fit-content;
+width: 90%;
+/* background-color: wheat; */
+
+ }
+ .option input{
+    margin-left: 90px;
+    border-radius: 40px;
+    background-color:#FF9900 ;
+   text-align: center;  
+}
+
+
+
+.bigimage{
+    height: 85%;
+    width: 100%;
+    background-color: yellowgreen;
+    /* margin-top: 30px; */
+}
+.bigimage img{
+    height:100%;
+    width: 100%;
+}
+.smallimage{
+    height:15% ;
+    width: 100%;
+    /* background-color: black; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+.image{
+    height: 90px;
+    width: 90px;
+    border: 2px solid white;
+}
+.image img{
+    height: 100%;
+    width: 100%;
+}

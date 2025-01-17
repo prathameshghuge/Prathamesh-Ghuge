@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.mainbox{
+    height: 700px;
+    width: 80%;
+    background-color: #F0F0F0;
+   
+}
+.box1{
+    height:400px;
+    width: 80%;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+ 
+}
+.sign{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.box2{
+    height: 100px;
+    width: 80%;
+    /* background-color: blue; */
+}
+.image{
+    height: 200px;
+    width: 350px;
+    /* background-color: black; */
+    margin-left: 100px;
+    
+
+}

@@ -1,0 +1,380 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: "Roboto", serif;
+}
+.navbar{
+    height: 50px;
+    width: 100%;
+    background-color: #1c2531;
+    display: flex;
+}
+.logo{
+    height: 100%;
+    width: 140px;
+    /* background-color: aliceblue; */
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.logo img{
+    height: 73%;
+    width: 90px;
+    
+}
+.address{
+    height: 100%;
+    width: 200px;
+    /* background-color: rgb(180, 200, 30); */
+    display: flex;
+}
+
+.icon{
+height: 100%;
+width: 30px;
+/* background-color: aqua; */
+display: flex;
+align-items: center;
+}
+#ic1{
+    font-size: 25px;
+    color: white;
+}
+.location{
+    height: 100%;
+    width: 200px;
+    /* background-color: blue; */
+    font-size: small;
+    color: white;
+    text-align: center;
+    /* display: flex; */
+    /* align-items: center; */
+    justify-content: center;
+    margin: 5px;
+}
+
+.search{
+    height: 100%;
+    width: 45%;
+/* background-color: aqua; */
+display: flex;
+align-items: center;
+/* justify-content: center; */
+border-radius: 10px,0px,0px,10px;
+
+}
+.all{
+    height: 40px;
+    width: 40px;
+    margin-left: 20px;
+
+    background-color: rgb(211, 208, 208);
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+    border-radius: 10px 0px 0px 10px;
+}
+
+/* .language{
+    height: 100%;
+    width: 6%;
+    background-color: brown;
+} */
+.search input{
+    height: 40px;
+    width: 500px;
+    /* text-align: center; */
+    
+
+}
+
+.icon1{
+    height: 40px;
+    width: 40px;
+    /* border:2px solid; */
+    display: flex;
+    justify-content: center ;
+    align-items: center;
+    background-color: #FF9900;
+    border-radius: 0px 10px 10px 0px;
+}
+#ic2{
+    font-size: 30px;
+    color: white;
+
+}
+
+.language{
+    height: 100%;
+    width: 6%;
+    /* background-color: brown; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: right;
+    
+   
+}
+
+
+.india{
+    height:45%;
+    width: 40px;
+    background-color: chocolate;
+    margin-left: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.india img{
+    height: 100%;
+    width: 100%;
+}
+
+.account{
+    height: 100%;
+    width: 10%;
+ 
+    /* background-color: rgb(28, 197, 99); */
+    text-align: left;
+    color: white;
+    font-size: medium;
+}
+.order{
+    height: 100%;
+    width: 6%;
+    /* background-color: brown; */
+    text-align: left;
+    
+    color: white;
+
+
+}
+.Cart{
+    height: 100%;
+    width: 10%;
+    /* background-color: rgb(51, 36, 220); */
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+}
+.icon2{
+    height: 40px;
+    width: 100px;
+    /* background-color: violet; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#ic3{
+  font-size: 40px;
+  color: white;
+
+}
+.Box{
+    height: 30px;
+    width: 100%;
+    background-color:#1c2531;
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    gap: 15px;
+}
+button{
+    height: 70%;
+    background-color:#1c2531;
+    font-size: medium;
+    color: white;
+   cursor: pointer;
+   /* border: 1px white solid; */
+ 
+   
+   
+}
+#btn1{
+    margin-left: 20px;
+    /* border: 1px white solid; */
+    font-size: medium;
+}
+
+
+
+.box{
+    height: 750px;
+    width: 100vw;
+    /* background-color: black; */
+    background: linear-gradient(90deg, rgba(164,146,176,1) 0%, rgba(71,195,194,1) 49%, rgba(232,200,155,1) 100%);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+   
+}
+
+.card{ 
+  height: 350px;
+  width: 300px;
+  background-color: white;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 5px;
+ 
+}
+.head{
+    height:60px;
+    width:100vw;
+    /* background-color: rgb(205, 23, 23); */
+    margin: 5%;
+
+  text-align: left;
+}
+.image{
+    height: 120px;
+    width: 120px;
+    background-color:white;
+    /* border: 2px solid black; */
+    /* display: flex;
+    flex-wrap: wrap; 
+    justify-content: center;
+     align-items: center;
+    gap: 20px; */
+    }
+.image img{
+    width: 100%;
+    height: 90px;
+     margin-top: 0px; 
+
+}
+.image p{
+    font-size: 11px;
+    margin-left: 7px;
+}
+.box2{
+    height: 400px;
+    width: 100vw;
+    background-color: black;  
+     background: linear-gradient(90deg, rgba(164,146,176,1) 0%, rgba(71,195,194,1) 49%, rgba(232,200,155,1) 100%); 
+     display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 10px; 
+  
+}
+.card2{
+    height: 270px;
+    width: 90vw;
+    background-color: white;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 5px;
+   /* margin-left: 10px;  */
+}
+
+.head2{
+    height:50px;
+    width:100%;
+    /* background-color: rgb(205, 23, 23);  */
+    margin: 1px; 
+} 
+.head2 h1{
+
+    color: rgb(16, 10, 10);
+    margin-left: 20px; 
+} 
+.image2{
+    height: 200px;
+    width: 200px;
+    background-color: aqua;
+    /* border: 2px solid black;  */
+     display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap; 
+    margin-bottom: 40px;
+    
+}
+.image2 img{
+    height: 200px;
+    width: 200px;
+ 
+
+}
+.footer{
+    height: 500px;
+    width: 100vw;
+    background-color: blue;
+}
+.back{
+    height: 50px;
+    width: 100vw;
+    background-color: #313f4ff9;
+    text-align: center;
+    /* margin-bottom: 10px; */
+    display: flex;
+      align-items: center;
+      justify-content: center;
+      color: white;
+}
+
+.card3{
+    height: 450px;
+    width: 100vw;
+    background-color:#232F3E;
+ /* text-align: center; */
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ flex-direction: column;
+
+}
+.card4{
+    height: 350px;
+    width: 1000px;
+    background-color:#232F3E;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* flex-direction: column; */
+    gap: 20px;
+}
+
+.one{
+    height: 350px;
+    width: 250px;
+    background-color: #232F3E;
+    text-align: center;
+    color: white;
+    
+
+}
+.one h3{
+    margin-top: 15px;
+    text-align: left;
+}
+
+.one ul{
+    text-align: left;
+    font-size: 15px;
+    line-height: 1.5;
+}
+/* .li{
+    line-height: 123;
+} */
+
+
+
+
+
+   
+
+   
+
+
+

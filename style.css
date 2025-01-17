@@ -1,0 +1,100 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.navbar{
+    height: 60px;
+    width: 100%;
+    background-color: #131A22;
+    display: flex;
+}
+.logo{
+   height: 100px;
+   /* width:130.73px; */
+   /* background-color: antiquewhite; */
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   margin-bottom: 100px;
+}
+.location{
+    height:100%;
+    width:220.5px;
+    /* background-color: aqua; */
+    display: flex;
+}
+.icon{
+    height:100%;
+    width:40px;
+    /* background-color: aqua; */
+    font-size:20px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 8px,0px,0px;
+
+
+}
+.address{
+height: 100%;
+width: 300px;
+/* background-color: lightblue; */
+font-size: 15px;
+display: flex;
+flex-direction: column;
+align-items: left;
+justify-content: center;
+color: white;
+}
+
+.search input{ 
+    height: 100%;
+    width:616.53px;
+    background-color: blue;
+}
+.all{
+    height: 40px;
+    width: 40px;
+    background-color: rgb(190, 189, 189);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5px;
+    margin-left: 10px;
+}
+.input{
+    height: 70px;
+    width: 40px;
+    outline: none;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: -35px;
+    margin-left: 120px;
+}
+.language{
+    height: 100%;
+    width:90.38px;
+    background-color: pink;
+}
+.languageh4{
+    display: flex;
+}
+.account{
+    height: 100%;
+    width:131.53px;
+    background-color: rgb(19, 194, 95);
+}
+.order{
+    height: 100%;
+    width:85.95px;
+    background-color: blue;
+}
+.cart{  height: 100%;
+    width:110px;
+    background-color: rgb(211, 175, 15);
+}
+

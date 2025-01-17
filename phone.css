@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.mainbox{
+         height: 1500px;
+         width: 100vW;
+         display: flex;
+         background-color: darkgreen;
+}
+.smallimage{
+    height: 450px;
+    width: 7vw;
+    background-color: yellow;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 5px;
+    position: sticky;
+    top: 0;
+    cursor: pointer;
+   
+}
+.img{
+    height:70px;
+    width: 50px;
+    background-color: white;
+   border-radius: 12px;
+   border: 2px solid black;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   overflow: hidden;
+}
+.img img{
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.bigimage{
+    height: 450px;
+    width: 43vw;
+    background-color: white;
+    position: sticky;
+    top: 0;
+    display: flex;
+    justify-content: center;
+}
+.bigimage img{
+    height:100%;
+    width: fit-content;
+
+}
+.discription{
+    height: 800px;
+    width: 50vw;
+    background-color: aqua;
+    display: flex;
+    gap: 20px;
+}
+.box1 i{
+    color: #FF9900;
+}
+
+
+
+.box1{
+    background-color: red;
+    height: 1500px;
+    width: 30vw;
+}
+#para1{
+    color: #2162A1;
+}
+#para2{
+    color: #2162A1;
+    margin-left: 150px;
+   margin-top: -17px;
+}
+.image{
+    height: 30px;
+    width: fit-content;
+}
+.image img{
+    height: 100%;
+    width: 100%;
+}
+
+.box2{
+    background-color: yellow;
+    height: 400px;
+    width: 15vw;
+    margin-top: 100px;
+    border-radius: 5%;
+}
+
+.all{
+    height: 800px;
+    width: 350px;
+    background-color:white;
+    border: 2px solid black;
+    
+}
+.cart{
+    height: 400px;
+    width: 1000px;
+    background-color: yellow;
+    /* margin-right: 100px; */
+    margin-top: 10px;
+    border-radius: 20px;
+}

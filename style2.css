@@ -1,0 +1,144 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.box{
+    display: flex;
+    gap: 20px;
+}
+.main{
+    height: 900px;
+    width:900px;
+    background-color: aqua;
+    padding: 0px;
+
+
+
+}
+.head{
+    height: 30px;
+    width: 300px;
+    background-color: black;
+    margin-left: 120px;
+    margin-top: 40px; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.xyz{
+    display: flex;
+    gap: 50px;
+    padding: 50px;
+}
+
+.image1{
+    height: 200px;
+    width: 200px;
+    background-color: rgb(189, 21, 21);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+}
+.image2{
+    height: 200px;
+    width: 200px;
+    background-color: rgb(30, 182, 93);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+}
+.sat{
+    display: flex;
+    gap: 50px;
+    padding: 50px;
+    
+}
+.image3{
+height: 200px;
+width: 200px;
+background-color: rgb(189, 21, 21);
+
+display: flex;
+align-items: center;
+justify-content: center;
+}
+.image4{
+    height: 200px;
+    width: 200px;
+    background-color: rgb(21, 189, 55);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+    .main2{
+        height: 900px;
+        width:900px;
+        background-color: aqua;
+        padding: 0px;
+    
+    
+    
+    }
+    .head2{
+        height: 30px;
+        width: 300px;
+        background-color: black;
+        margin-left: 120px;
+        margin-top: 40px; 
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        
+    }
+    .xyzx{
+        display: flex;
+        gap: 50px;
+        padding: 50px;
+    }
+    
+    .image11{
+        height: 200px;
+        width: 200px;
+        background-color: rgb(189, 21, 21);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+       
+    }
+    .image22{
+        height: 200px;
+        width: 200px;
+        background-color: rgb(30, 182, 93);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+       
+    }
+    .tws{
+        display: flex;
+        gap: 50px;
+        padding: 50px;
+        
+    }
+    .image33{
+    height: 200px;
+    width: 200px;
+    background-color: rgb(189, 21, 21);
+    margin-bottom: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    }
+    .image44{
+        height: 200px;
+        width: 200px;
+        background-color: rgb(21, 189, 55);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        }
