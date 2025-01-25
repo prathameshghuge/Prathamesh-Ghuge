@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", serif;
+}
+.main{
+    height: 520px;
+    width: 100%;
+    /* background-color: aqua; */
+}
+.logo{
+    height: 60px;
+    width: 100%;
+    /* background-color: black; */
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+    font-size: 10px;
+
+}
+.logo img{
+    height: 80%;
+    width: 140px;
+}
+.box{
+    height: 308px;
+    width: 300px;
+    /* background-color: yellow; */
+    margin-left: 550px;
+    border: 1px solid black;
+    border-radius: 10px;
+    text-align: left;
+    /* display: flex;
+    justify-content: center; */
+  
+}
+.box h1{
+    font-weight: 200;
+    font-size: 24px;
+ display: flex;
+ /* justify-content: center; */
+ /* align-items: center; */
+ margin-top: 30px;
+ margin-left: 15px;
+
+ 
+}
+.box form{
+
+    margin-left:20px;
+}
+.box input{
+    height: 30px;
+    
+    width: 240px;
+    border-radius: 5px;
+}
+.box button{
+    height: 30px;
+    width: 220px;
+    border-radius: 15px;
+    margin-top: 15px;
+    background-color: #ff9900;
+   margin-left: 10px;
+   cursor: pointer;
+}
+.box p{
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+   
+ margin:5px ;
+}
+.buy{
+    
+    margin-left: 10px; 
+    margin-top: 10px;  
+}
+.why{
+    font-weight: 600;
+}
+.shop{
+    color: #2162A1;
+}
+.condition{
+   height: 20px;
+   /* background-color: antiquewhite; */
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   gap: 80px;
+   color: #2162A1;
+}
+.year{
+    height: 20px;
+   /* background-color: rgb(161, 93, 5); */
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   gap: 80px;
+   color: rgb(174, 174, 177);   
+}

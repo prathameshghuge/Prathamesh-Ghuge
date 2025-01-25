@@ -507,7 +507,7 @@ button{
     justify-content: center;
     flex-direction: column;
 } */
-.price{
+ .price{
     height: 680px;
     width: 90%;
     /* background-color: goldenrod; */
@@ -737,28 +737,5 @@ button{
 } */
  .hr7{
     margin: 10px 0px;
- }
-/* .price2{
-    height: 50%;
-    width:90%;
-    background-color: aqua;
-}
-.price2 input{
-    margin-left: 30px;
-    height: 20px;
-    border-radius: 5px;
-    width: 80%;
-    margin-top: 10px;
-}
-.onepluslogo{
-    height: 100px;
-    width:100px;
-    /* background-color: #1c2531; */
-    margin-left: 20px;
-    margin-top: 20px;
-}
-.onepluslogo img{
-    height: 100%;
-    width: 100%;
+ } */
 
-} */

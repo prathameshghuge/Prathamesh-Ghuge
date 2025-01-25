@@ -1,0 +1,324 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", serif;
+}
+.navbar{
+    height: 70px;
+    width: 95%;
+    background-color: rgba(219, 219, 219, 0.801);
+margin-left: 35px;
+display: flex;
+align-items: center;
+justify-content: center;
+gap: 200px;
+border-radius: 0px 0px 15px 15px;
+}
+.image{
+    height: 90%;
+    width: 200px;
+    /* background-color: aqua; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.image img{
+    height: 50px;
+    width: 60%;
+}
+.head{
+    height: 100%;
+    width: 260px;
+    /* background-color: green; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.head h1{
+    font-weight: 400;
+}
+.lock{
+    height: 100%;
+    width: 200px;
+    /* background-color: rgba(142, 167, 167, 0.536); */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.lock i{
+    height: 40px;
+    width: 20%;
+    color: #7979797e;
+    font-size: 45px;
+} 
+.main{
+    height:px;
+  width:100%;
+ /* background-color: aqua; */
+ display: flex;
+ /* align-items: center; */
+ justify-content: center;
+ padding: 10px;
+ gap:10px;
+ /* border:2px solid black; */
+} 
+.box1{
+    height: 1000px;
+    width: 900px;
+    /* background-color: blue; */
+    margin-left: 20px;
+    padding: 20px;
+    border-radius: 200px;
+    
+  
+}
+.row{
+    height: 100px;
+    width: 100%;
+    /* background-color: bisque; */
+    display:flex ;
+    /* align-items: center;
+    justify-content: center; */
+    gap: 150px;
+}
+.para1{
+    color:blue ;
+}
+.hr1{
+    margin: 20px 0px;
+}
+.method{
+    height: 40px;
+    width: 90%;
+    /* background-color: antiquewhite; */
+}
+.method h3{
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    color: #c45500;
+    font-size: 20px;
+    margin: 20px;
+}
+.paymentbox{
+       height: 450px;
+       width: 85%;
+       /* background-color: azure; */
+       padding: 10px;
+       border:2px solid black;
+    border-radius: 10px;
+    margin-left: 50px;
+    margin-bottom: 1px;
+       overflow: hidden;
+}
+.paymentbox h3{
+    height:20px;
+    width:90%;
+    
+    /* background-color:burlywood; */
+    margin: 10px;
+    font-size: 20px;
+
+   
+}
+.hr2{
+    margin: 10px 0px;
+}
+.code{
+    height: 40px;
+    width:100%;
+    /* background-color: aqua; */
+    gap: 70px;
+}
+.icon i{
+    font-size: 20px;
+   margin-top: 100px;
+   margin-left: 10px;
+}
+.search input{
+    height: 30px;
+    width: 200px;
+    border-radius: 8px;
+    text-align: left;
+    
+}
+.apply button{
+    font-size: 20px;
+    width: 100px;
+    border-radius: 10px;
+}
+.another{
+    height: 110px;
+    width: 100%;
+    /* background-color: chocolate; */
+}
+.hr3{
+    margin: 10px 0px;
+}
+.cre{
+    height: 30px;
+    width: 100%;
+    /* background-color: blueviolet; */
+}
+.cre  input{
+    margin-left: 20px;
+    margin: 10px;
+}
+.credit{
+    font-size: 18px;
+    font-weight: 800;
+}
+.chose{
+    width: 200px;
+    margin-left: 100px;
+
+}
+.methods{
+    height: 40px;
+    width: 100%;
+    /* background-color: blue; */
+    
+  
+}
+.methods img{
+    height: 30px;
+    width: 50px;
+    margin: 5px;
+    overflow: hidden;
+    /* background-color: blue; */
+}
+.net{
+    height: 70px;
+    width: 100%;
+    /* background-color: rgb(87, 61, 42); */
+}
+.cred{
+    height: 50px;
+    width: 100%;
+    /* background-color: blueviolet; */
+}
+.cred input{
+    margin-left: 20px;
+    margin: 10px;
+}
+.net button{
+    border-radius: 5px;
+    font-size: 20px;
+    margin-left: 30px;
+    margin-bottom:30px;
+}
+.other{
+    height: 50px;
+    width: 100%;
+  
+    margin-top: 10px;
+}
+.paymentmethod{
+    background-color: gray;
+    height: 50px;
+    width: 100%;
+    /* margin-top: 90px; */
+    display: flex;
+    /* justify-content: center; */
+    /* align-items: center; */
+ 
+}
+.paymentmethod p{
+    border: 2px solid ;
+    width: 200px;
+    text-align: center;
+    height: 30px;
+    border-radius: 10px;
+    margin-top: 10px;
+    margin-left: 10px;
+    /* align-items: center;
+    justify-content: center; */
+    background-color: rgba(234, 234, 138, 0.751);
+}
+.hr4{
+    margin: 10px 0px;
+}
+.offer{
+    font-size: 26px;
+}
+.hr5{
+    margin: 10px 0px;
+}
+.hr6{
+    margin: 10px 0px;   
+}
+.box2{
+    height: 350px;
+    width: 280px;
+     /* background-color: blue; */
+     border: 2px solid black;
+     margin: 10px;
+     border-radius:10px;
+    overflow: hidden;
+    }
+
+.align{
+    width: 100%;
+    height: 120px;
+    /* background-color: rgb(24, 236, 81); */
+    margin: ;
+}
+.align input{
+    width: 90%;
+    height: 30px;
+    margin-left: 20px;
+    margin-top: 20px;
+    border-radius: 20px;
+    /* background-color: rgb(225, 225, 173); */
+    background-color: rgba(234, 234, 138, 0.751);;
+}
+.align p{
+    text-align: center;
+}
+.order{
+    margin: 10px;
+    font-size: 25px;
+}
+.hr7{
+    margin: 10px 0px;
+    width: 90%;
+    margin-left: 10px;
+}
+
+.money{
+    height: 150px;
+    width:100%;
+    background-color: brown;
+}
+.money table{
+   display: flex;
+   align-items: center;
+   /* justify-content: center; */
+   margin: 10px;
+
+}
+/* .td{
+   margin-left: 10px;
+} */
+ .hr8{
+    margin: 10px 0px;
+    width: 90%;
+    margin-left: 10px;  
+ }
+ .cost{
+    background-color:var(--__N4QdCheV6mGo,#7979797e);
+    height: 40px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ }
+ .cost a{
+    color: #2162A1;
+
+ }
